@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    background-color:black;
+}
+    div{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    transition: all 500ms ease;
+}
+
+div:hover:nth-child(odd){
+    background-color:turquoise
+}
+div:hover:nth-child(even){
+    background-color: yellowgreen;
+}
+
+div:hover:nth-child(4){
+    background-color: pink;
+}
+div:first-of-type{
+    background-color:white}
+
+
+div:last-child{
+    background-color: rgb(2, 54, 37);
+}
