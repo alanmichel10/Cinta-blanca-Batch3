@@ -1,6 +1,7 @@
 body{
     background-color: darkolivegreen;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
     
 }
 nav{
@@ -35,6 +36,36 @@ nav div:hover{
     background-color:rgb(92, 185, 154);
 
 }
+.articulo{
+    width: 100vw;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.articulo h1, .articulo h2{
+    margin: 0px;
+}
+.articulo h1{
+  
+    color:greenyellow;
+    font-size: 100px;
+    
+
+}
+.articulo h2{
+    color: white;
+    font-size: 70px;
+   
+}
+.articulo div{
+    padding: 40px;
+    background-color: orange;
+    color:white;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*
 breakpoint de tableta
 */
@@ -49,6 +80,10 @@ breakpoint de celuar
 #logo{
 display:none;
 }
+}
+
+div{
+
 }
 
 
