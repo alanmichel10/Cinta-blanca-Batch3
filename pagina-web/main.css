@@ -1,0 +1,55 @@
+body{
+    background-color: darkolivegreen;
+    margin: 0px;
+    
+}
+nav{
+    background-color: white;
+    height: 80px;
+    border-bottom: 4px solid darkgray;
+
+}
+#logo{
+    width: 150px;
+    padding-top: 13px;
+}
+nav div{
+    height: 80px;
+    float: right
+
+}
+i{
+    color:gray;
+    font-size: 40px;
+    vertical-align: top;
+    margin-top: 22px;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+}
+i:hover{
+    
+    color:white;
+}
+nav div:hover{
+    background-color:rgb(92, 185, 154);
+
+}
+/*
+breakpoint de tableta
+*/
+@media screen and (max-width:768px){
+
+}
+
+/*
+breakpoint de celuar
+*/
+@media screen and (max-width:480px){
+#logo{
+display:none;
+}
+}
+
+
+   
