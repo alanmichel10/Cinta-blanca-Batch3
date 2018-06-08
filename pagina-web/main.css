@@ -14,9 +14,19 @@ nav{
     width: 150px;
     padding-top: 13px;
 }
+#logo-small{
+    display: none;
+    
+    
+}
+
+   
+   
+
 nav div{
     height: 80px;
-    float: right
+    float: right;
+   
 
 }
 i{
@@ -56,15 +66,17 @@ nav div:hover{
 .articulo h2{
     color: white;
     font-size: 70px;
+    letter-spacing: 19px;
    
 }
-.articulo div{
+.articulo div.naranja{
     padding: 40px;
     background-color: orange;
     color:white;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 /*
 breakpoint de tableta
@@ -77,14 +89,52 @@ breakpoint de tableta
 breakpoint de celuar
 */
 @media screen and (max-width:480px){
-#logo{
-display:none;
-}
+    #logo{
+        display:none;
+    }
+    #logo-small{
+        display: inline-block;
+        width: 60px;
+        margin-top: 12px;
+    }
+    .articulo{
+        padding: 5vw;
+        width: 90vw;
+    }
+    .articulo h1, .articulo h2{
+        display: inline-block;
+    }
+    
+    .articulo h1{
+        font-size: 38px;
+    }
+    .articulo h2{
+        font-size: 20px;
+        margin-top: -30px;
+        letter-spacing: 11px;
+    }
+    div.contenedor-imagen{
+        
+        height: 17vw;
+        width: 17vw;
+        float: left;
+    }
+    div.contenedor-headers{
+        height: 17vw;
+        width: 70vw;
+        margin: 0px;
+        float: left;
+        margin-left: 6px;
+    }
+    div.contenedor-imagen img{
+        vertical-align: middle;
+    }
+    .articulo div.naranja{
+        width: 65vw;
+        display: inline-block
+    }
 }
 
-div{
-
-}
 
 
    
