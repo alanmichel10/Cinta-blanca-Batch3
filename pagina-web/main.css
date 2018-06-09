@@ -1,5 +1,5 @@
 body{
-    background-color: darkolivegreen;
+    
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     
@@ -51,6 +51,14 @@ nav div:hover{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: darkolivegreen;
+    background-size: cover;
+}
+.fondo_1{
+    background-image: url('imagenes/fondo-jeep.jpg')
+}
+.fondo_2{
+    background-image: url('imagenes/fondo-jeep2.jpg')
 }
 
 .articulo h1, .articulo h2{
@@ -77,6 +85,15 @@ nav div:hover{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+.articulo-blanco{
+    background-color: white;
+    text-align: center;
+    padding-top: 2%;
+    color: gra;
+
+    
+    
 }
 /*
 breakpoint de tableta
@@ -133,6 +150,10 @@ breakpoint de celuar
         width: 65vw;
         display: inline-block
     }
+    .articulo-blanco p{
+        display: none;
+    }
+    
 }
 
 
