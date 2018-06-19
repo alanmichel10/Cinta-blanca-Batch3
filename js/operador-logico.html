@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operador Logico</title>
+</head>
+<body>
+    <script>
+        //verdadero=1 falso=0
+        console.log('1==1 & 2==2',1==1 & 2==2);
+        console.log("1==='1' || 2=='2'" ,1==='1' || 2=='2');
+        let clima='soleado'
+        if(clima=='nublado'){
+            //bloque de codigo
+             console.log('Tenis');
+        }
+        else if(clima=='soleado'){
+            console.log('Chanclas');
+        }
+        else{
+            console.log('Botas')
+        }
+        
+        let edad=5;
+        if(edad>=18){
+            console.log('Mayor de edad');
+            if(edad>=18 & edad<=25){
+                console.log('Estas en la uni');
+
+
+            }
+            else if(edad>=26 & edad<=35){
+                console.log('Adulto joven');
+            }
+            else if(edad>36 & edad<50){
+                console.log('Adulto');
+            }
+            else{
+                console.log('Abuelito')
+            }
+
+        
+        } 
+        else{
+            if(edad<18 & edad>=15){
+                console.log('Estas en la prepa');
+            }
+            else if(edad<15 & edad>=12){
+                console.log('Estas en la secundaria');
+            }
+            else if(edad<12 & edad>=6){
+                console.log('Estas en la primaria');
+            }
+            else{
+                console.log('Eres un feto ingeniero')
+            }pipo980810
+        }
+
+                
+    </script>
+    
+</body>
+</html>
