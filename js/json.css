@@ -7,8 +7,25 @@ h2{
 
 table{
     border: 1px solid black;
-
+    background-color: lightgray;
 }
-tr{
+td{
+    border:1px solid black;
+    background-color: bisque;
+    
+}
+th{
     border: 1px solid black;
+    background-color: lightcoral;
+}
+
+td:hover{
+    box-shadow: 5px 5px 2px gray;
+    background-color: lightskyblue;
+}
+tr:hover{
+    box-shadow: 5px 5px 2px blue;
+    background-color: lightskyblue;
+    transform: scale(1.11);
+
 }
