@@ -1,0 +1,20 @@
+
+  body{
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+   
+  }
+  
+div{
+   background-color: lightgoldenrodyellow; 
+   border: 1px solid darkgrey;
+   box-shadow: 1px 1px 1px 1px gray;
+   padding: 16px;
+   margin-top: 10px;
+}
+p{
+    display:inline-block;
+    
+}
+
+
