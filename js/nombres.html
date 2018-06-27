@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nombres</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <link rel="stylesheet" href="nombres.css">
+</head>
+<body class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col align-self-center">
+            <input placeholder="Escribe tu nombre" type="text" id="el_nombre" onkeyup="eventoEnter()">
+            <button onclick="muestraNombre()">
+                <i class="fa fa-plus"></i>
+            </button>
+           
+        </div>
+        <div class="col">
+            <button onclick="limpiaTodo()">
+                  <i class="fas fa-trash-alt"></i>
+            </button>
+        </div>
+    </div>
+    <div id="el_contenedor"></div>
+    <script src="nombres.js"></script>
+
+    
+</body>
+</html>

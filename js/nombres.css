@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-color:lightseagreen;
+    font-family: 'Architects Daughter', cursive;
+
+}
+#el_contenedor{
+    margin-top: 20px;
+}
+
+#el_contenedor h2{
+    border: 5px double gray;
+    width: 100%;
+    padding: 16px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#el_contenedor h2:hover{
+    background-color:rgba(255, 0, 0, 0.623);
+}
+#el_contenedor h2:active{
+    background-color: black
+}
