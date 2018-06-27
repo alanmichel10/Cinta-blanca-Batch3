@@ -8,6 +8,14 @@ function fibonacci(numero){
 let fibo=[0,1];
 let contenedor=document.createElement('div');
 
+if(numero>0){
+    let parrafo=creaParrafoHTML(0);
+    contenedor.appendChild(parrafo);
+}
+if(numero>1){
+    let parrafo=creaParrafoHTML(1);
+    contenedor.appendChild(parrafo);
+}
 for(let i=1;i<numero-1;i++){
     let numero=fibo[i]+fibo[i-1];
     fibo.push(numero);
@@ -34,7 +42,7 @@ function numerosPares(numeros){
 
 function calculaFibo(){
      let cantidad=document.getElementById('cantidad').value;
-     if(cantidad>1){
+     if(cantidad>0){
      fibonacci(cantidad);
      }
      else{

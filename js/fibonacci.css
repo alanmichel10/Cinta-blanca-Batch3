@@ -1,7 +1,7 @@
 
   body{
     padding: 10px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron';
    
   }
   
@@ -16,5 +16,9 @@ p{
     display:inline-block;
     
 }
+h1{
+  font-family: 'Orbitron';
+}
+
 
 
